@@ -1,0 +1,119 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial;
+}
+
+form > a > img {
+    width: 23px;
+}
+
+.search > form {
+    display: flex;
+}
+
+header {
+    background-color: rgb(140, 140, 140);
+    height: 133px;
+    text-align: left;
+}
+
+.header-content {
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.english-site {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.english-site > a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.english-site > a:hover {
+    color: #005CA0;
+}
+
+.search > form > input {
+    background: url(search_input.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.search > form > button {
+    width: fit-content;
+    background: none;
+    border: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: fit-content;
+}
+
+nav > ul > li:hover > a , nav > ul > li.dropdown > ul.dropdown-list > li:hover > a {
+    color: #005CA0;
+    text-decoration: underline;
+} 
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > li.dropdown > ul.dropdown-list {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+}
+
+nav > ul > li.dropdown {
+    position: relative;
+}
+
+nav > ul > li.dropdown:hover > ul.dropdown-list {
+    display: block;
+}
+
+nav > ul > li > img{
+    padding: 10px;
+}
+
+nav > ul > li.dropdown > ul.dropdown-list {
+    text-align: right;
+    background-color: rgb(140, 140, 140);
+    padding: 0;
+    width: max-content;
+}
+
+nav > ul > li.dropdown > ul.dropdown-list > li {
+    background-image: url("menu_dropdown_sep.png");
+    background-repeat: repeat-x;
+    padding: 5px 0 5px 0;
+}
+
+nav > ul > li.dropdown > ul.dropdown-list > li > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav > ul > li.dropdown > ul.dropdown-list > li:hover {
+    background-color: rgb(183, 183, 183);
+}
