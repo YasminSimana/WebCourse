@@ -152,11 +152,11 @@ nav > ul > li.dropdown > ul.dropdown-list > li:hover {
     width: 80%;
 }
 
-.frst-row > .column > .text-erea > h4 {
+.frst-row > .column > .text-erea > h3 {
     margin-top: 10px;
 }
 
-.frst-row > .column > .text-erea > .read-more {
+.column > .text-erea > .read-more {
     text-align: left;
 }
 
@@ -164,38 +164,45 @@ nav > ul > li.dropdown > ul.dropdown-list > li:hover {
     color: white;
 }
 
-.frst-row > .column > .text-erea > .read-more > a:hover {
+.column > .text-erea .read-more > a:hover {
     color: #005CA0;
 }
 
-.frst-row > .column > .text-erea > .read-more > #blue-img {
+.column > .text-erea .read-more > #hover-img {
     display: none;
 }
 
-.frst-row > .column > .text-erea > .read-more > a:hover ~ #blue-img {
+.column > .text-erea .read-more > a:hover ~ #hover-img {
     display: initial;
 }
 
-.frst-row > .column > .text-erea > .read-more > a:hover ~ #white-img{
+.column > .text-erea .read-more > a:hover ~ #init-img{
     display: none;
 }
 
- /*
-.frst-row > .column > .text-erea {
+.column > .text-erea .read-more > a {
+    font-size: 10px;
+    color: rgb(140, 140, 140);
+}
+
+.scnd-row > .column {
     position: relative;
 }
 
-.frst-row > .column > .text-erea > .text-input {
+.scnd-row > .column > .text-erea {
     position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
+    bottom: 5px;
+    left: 20px;
+    font-size: 12px;
+    padding: 0 15px 10px 10px;
 }
 
-.frst-row > .column > .text-erea > .text-input >{
-    position: absolute;
-    top: 0;
-    right: 0;
+.scnd-row > .column > .text-erea > .split-content {
     display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
-*/
+
+.scnd-row > .column > .text-erea > .split-content > img {
+    width: 40%;
+}
