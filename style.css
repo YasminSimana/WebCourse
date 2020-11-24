@@ -2,7 +2,7 @@ body {
     direction: rtl;
     text-align: right;
     font-family: Arial;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 form > a > img {
@@ -14,8 +14,8 @@ form > a > img {
 }
 
 header {
-    background-color: rgb(140, 140, 140);
-    height: 133px;
+    background-image: url("header_bg.png");
+    height: 106px;
     text-align: left;
 }
 
@@ -75,6 +75,7 @@ nav > ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
 }
 
 nav > ul > li.dropdown {
@@ -193,7 +194,6 @@ nav > ul > li.dropdown > ul.dropdown-list > li:hover {
 .scnd-row > .column > .text-erea {
     position: absolute;
     bottom: 5px;
-    left: 20px;
     font-size: 12px;
     padding: 0 15px 10px 10px;
 }
@@ -201,22 +201,18 @@ nav > ul > li.dropdown > ul.dropdown-list > li:hover {
 .scnd-row > .column > .text-erea > .split-content {
     display: flex;
     justify-content: space-between;
-    padding: 0;
 }
 
 .scnd-row > .column > .text-erea > .split-content > img {
     width: 40%;
 }
 
-.scnd-row {
-    margin-bottom: 20px;
-}
-
 footer {
-    background-color: rgb(140, 140, 140);
+    background-image: url("footer_bg.png");
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 38px;
 }
 
 footer > ul {
@@ -224,6 +220,7 @@ footer > ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 }
 
 footer > ul > li {
@@ -348,7 +345,7 @@ ul.breadcrumb > li:hover > a {
 .multi-columns > .contact-column > .contact-form-content {
     position: absolute;
     top: 0;
-    right: 5px;
+    right: 15px;
 }
 
 .contact-form-content > span , .contact-form-content > form > div > label {
@@ -360,9 +357,10 @@ ul.breadcrumb > li:hover > a {
     margin: 0;
 }
 
-.contact-form-content > h3 {
+.contact-form-content > h3 , .contact-details > h3 , .more-info > h3 {
     margin-bottom: 3px;
     color:  #005CA0;
+    margin: 8px 0 8px 0;
 }
 
 .contact-form-content > form {
@@ -389,4 +387,38 @@ ul.breadcrumb > li:hover > a {
 
 .multi-columns > .contact-column > img {
     height: 77%;
+}
+
+.multi-columns > .contact-column > .contact-row {
+    position: relative;
+}
+
+.multi-columns > .contact-column > .contact-row > .contact-details {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.multi-columns > .contact-column > .contact-row > .contact-details > p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.multi-columns > .contact-column > .contact-row > .more-info {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.multi-columns > .contact-column > .contact-row > .more-info > p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.multi-columns > .contact-column > .contact-row > .more-info > a {
+    text-decoration: none;
+}
+
+.multi-columns > .contact-column > .contact-row > .more-info > a:hover {
+    text-decoration: underline;
 }
