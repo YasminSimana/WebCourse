@@ -2,6 +2,7 @@ body {
     direction: rtl;
     text-align: right;
     font-family: Arial;
+    margin-bottom: 30px;
 }
 
 form > a > img {
@@ -205,4 +206,42 @@ nav > ul > li.dropdown > ul.dropdown-list > li:hover {
 
 .scnd-row > .column > .text-erea > .split-content > img {
     width: 40%;
+}
+
+.scnd-row {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(140, 140, 140);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > ul > li {
+    padding: 0 5px 0 5px;
+}
+
+footer > ul > li > a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+footer > ul > li:last-child > a {
+    color: red;
+}
+
+footer > ul > li:hover > a {
+    color: #005CA0;
+    text-decoration: underline;
 }
